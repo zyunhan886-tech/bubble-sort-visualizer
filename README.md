@@ -182,11 +182,13 @@ Input: a, b, c
 
 ![alt text](test3.png)
 
-The program detected invalid input.
+result: 
 
-No animation was generated.
+    The program detected invalid input.
 
-This confirms that non-numeric input is safely rejected.
+    No animation was generated.
+
+    This confirms that non-numeric input is safely rejected.
 
 ## 9. Acknowledgment 
 
