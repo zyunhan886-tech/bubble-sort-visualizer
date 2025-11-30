@@ -119,7 +119,7 @@ def get_code_text(active_line=None):
 def generate(input_text):
     try:
         # Convert Chinese comma to English comma if any
-        text = input_text.replace(",", ",")
+        text = input_text.replace("，", ",")
         arr = [int(x.strip()) for x in text.split(",") if x.strip()]
         # Limit to first 20 values to prevent overload
         if len(arr) > 20:
