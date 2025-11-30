@@ -84,6 +84,24 @@ The system displays:
 
 ## 4. Flowchart
 
+```mermaid
+graph TD
+    A([Start App]) --> B[User Inputs List or Clicks Random]
+    B --> C{Generate Animation?}
+    C -- Yes --> D[Run Bubble Sort & Record Steps]
+    D --> E[Store: Array State, Compare Indices, Swap Flags, Code Line]
+    E --> F[Prepare First Frame]
+    F --> G[Wait for User Interaction]
+
+    G --> H{User Action}
+    H -- Play / Next --> I[Step Index + 1]
+    H -- Prev --> J[Step Index - 1]
+    H -- Speed Slider --> K[Update Timer Delay]
+
+    I --> L[Draw Frame & Highlight Code]
+    J --> L
+    L --> G
+```
 
 ## 5. Algorithm choice explanation
 
