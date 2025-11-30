@@ -91,44 +91,37 @@ I chose Bubble Sort because it is a classic introductory sorting algorithm. Its 
 
 ## 6. Feature list
 
-Accepts user input of up to 20 integers (0–100)
+1) Accepts user input of up to 20 integers (0–100)
 
-One-click random list generation
+2) One-click random list generation
 
-Step-by-step Bubble Sort visualization
+3) Step-by-step Bubble Sort visualization
 
-Highlights the two compared values in each step
+4) Highlights the two compared values in each step
 
-Shows swap actions with a curved red arrow
+5) Shows swap actions with a curved red arrow
 
-Displays the corresponding line of Python code during each step
+6) Displays the corresponding line of Python code during each step
 
-Provides interactive controls: Prev, Next, Play, Pause
+7) Provides interactive controls: Prev, Next, Play, Pause
 
-Includes a slider to adjust animation speed
+8) Includes a slider to adjust animation speed
 
-Automatically stops when the animation reaches the final step
+9) Automatically stops when the animation reaches the final step
 
-Clean and simple Gradio interface that is easy to use
+10) Clean and simple Gradio interface that is easy to use
 
 ## 7. Steps to run
 
-7. Steps to Run
+1) Clone the repository: git clone https://github.com/zyunhan886-tech/bubble-sort-visualizer.git
 
-Clone the repository: git clone <your GitHub repo URL>
+2) Enter the project folder: cd bubble-sort-visualizer
 
+3) Install the required packages: pip install -r requirements.txt
 
-Enter the project folder: cd <project-folder-name>
+4) Run the application: python app.py
 
-
-Install the required packages: pip install -r requirements.txt
-
-
-Run the application: python app.py
-
-After running, Gradio will automatically open a local link in your browser. If not, look for something like:
-
-Running on local URL:  http://127.0.0.1:7860
+5) After running, Gradio will automatically open a local link in your browser. If not, look for something like: Running on local URL:  http://127.0.0.1:7860
 
 ## 8. Hugging Face link
 
@@ -139,3 +132,5 @@ https://huggingface.co/spaces/Yunhan8585/CISC121_bubble_sort
 
 
 ## 10. Acknowledgment 
+
+I would like to thank Professor Ruslan Kain for explaining how to use Gradio in CISC-121 and for providing clarification by email about how to highlight code in the UI. I also want to thank my father for encouraging me and supporting me throughout this project.
