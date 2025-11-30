@@ -2,9 +2,9 @@
 
 CISC121 Final Project -- Bubble Sort Visualizer
 
-
 ## 2. Demo 
 
+![alt text](CISC121BubbleSort-aHuggingFaceSpacebyYunhan8585-GoogleChrome2025-11-3009-05-30-ezgif.com-video-to-gif-converter.gif)
 
 ## 3. Computational Thinking
 
