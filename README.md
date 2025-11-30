@@ -1,12 +1,12 @@
-## 1. Project title
+## CISC121 Final Project -- Bubble Sort Visualizer
 
-CISC121 Final Project -- Bubble Sort Visualizer
+Yunhan Zhang 20541605
 
-## 2. Demo 
+## 1. Demo 
 
 ![alt text](CISC121BubbleSort-aHuggingFaceSpacebyYunhan8585-GoogleChrome2025-11-3009-05-30-ezgif.com-video-to-gif-converter.gif)
 
-## 3. Computational Thinking
+## 2. Computational Thinking
 
 ### Decomposition:
 
@@ -82,7 +82,7 @@ The system displays:
 
     4) a slider for adjusting animation speed
 
-## 4. Flowchart
+## 3. Flowchart
 
 ```mermaid
 graph TD
@@ -103,11 +103,11 @@ graph TD
     L --> G
 ```
 
-## 5. Algorithm choice explanation
+## 4. Algorithm choice explanation
 
 I chose Bubble Sort because it is a classic introductory sorting algorithm. Its simple and iterative structure makes it easy for beginners to follow and understand how comparisons and swaps gradually lead to a fully sorted list. The step-by-step process of comparing and swapping adjacent values also makes it very suitable for visualization. Since Bubble Sort works in-place and only changes a small part of the list at a time, the animation clearly shows how the list becomes more sorted after each step. Many students are already familiar with Bubble Sort, which makes the visualization more accessible and helpful for beginners.
 
-## 6. Feature list
+## 5. Feature list
 
 1) Accepts user input of up to 20 integers (0–100)
 
@@ -129,7 +129,7 @@ I chose Bubble Sort because it is a classic introductory sorting algorithm. Its 
 
 10) Clean and simple Gradio interface that is easy to use
 
-## 7. Steps to run
+## 6. Steps to run
 
 1) Clone the repository: git clone https://github.com/zyunhan886-tech/bubble-sort-visualizer.git
 
@@ -141,14 +141,53 @@ I chose Bubble Sort because it is a classic introductory sorting algorithm. Its 
 
 5) After running, Gradio will automatically open a local link in your browser. If not, look for something like: Running on local URL:  http://127.0.0.1:7860
 
-## 8. Hugging Face link
+## 7. Hugging Face link
 
 https://huggingface.co/spaces/Yunhan8585/CISC121_bubble_sort
 
-## 9. Testing cases + results
+## 8. Testing cases + results
 
+1) Testing case 1
 
+Input: 30,24,77,40,71,92,96,99,31,7,51,90,18,94,29,39,34,99,0,9
 
-## 10. Acknowledgment 
+![alt text](test1.png)
+
+Result:
+    The algorithm correctly handled duplicate values (99, 99).
+
+    It also processed minimum value 0 without issues.
+
+    The visualization produced a fully sorted list from smallest to largest.
+
+    Code highlighting and step navigation worked correctly.
+
+2) Testing case 2
+
+Input: 200,40,50,10,20
+
+![alt text](test2.png)
+
+Result:
+
+    The program did not crash and still generated the animation.
+
+    The bar graph displayed the value 200, causing the bar to exceed the intended visual range.
+
+    This shows the program can technically sort any list, but visually it works best within 0–100.
+
+3) Testing case 3
+
+Input: a, b, c
+
+![alt text](test3.png)
+
+The program detected invalid input.
+
+No animation was generated.
+
+This confirms that non-numeric input is safely rejected.
+
+## 9. Acknowledgment 
 
 I would like to thank Professor Ruslan Kain for explaining how to use Gradio in CISC-121 and for providing clarification by email about how to highlight code in the UI. I also want to thank my father for encouraging me and supporting me throughout this project.
